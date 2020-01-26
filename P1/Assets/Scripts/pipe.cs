@@ -32,4 +32,15 @@ public class pipe : MonoBehaviour
                 otherObj.SetPositionAndRotation(new Vector3(otherObj.position.x, otherObj.position.y + this.GetComponent<Renderer>().bounds.size.y + 0.05f + otherObj.GetComponent<Renderer>().bounds.size.y, otherObj.position.z), new Quaternion());
             }
     }
+    public void changeAlive()
+    {
+        if(active)
+        {
+            active = false;
+        }
+        else
+        {
+            active = true;
+        }
+    }
 }

@@ -295,10 +295,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PipePrefab
       objectReference: {fileID: 0}
-    - target: {fileID: 1453528965, guid: 10cb0ec8ce75d494f89c71ad8a2a2cfe, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: e9de4a90a9ecf1f4caf315055e87be9f, type: 3}
     - target: {fileID: 7374908870085310726, guid: 10cb0ec8ce75d494f89c71ad8a2a2cfe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -354,16 +350,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7374908870085310725, guid: 10cb0ec8ce75d494f89c71ad8a2a2cfe,
-        type: 3}
-      propertyPath: pipeClip
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7374908870085310725, guid: 10cb0ec8ce75d494f89c71ad8a2a2cfe,
-        type: 3}
-      propertyPath: pipeSource
-      value: 
-      objectReference: {fileID: 2121501799}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10cb0ec8ce75d494f89c71ad8a2a2cfe, type: 3}
 --- !u!1001 &1536888984
@@ -562,12 +548,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &2121501799 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1453528965, guid: 10cb0ec8ce75d494f89c71ad8a2a2cfe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1433092263}
-  m_PrefabAsset: {fileID: 0}
 --- !u!212 &6233039263200581364
 SpriteRenderer:
   m_ObjectHideFlags: 0
